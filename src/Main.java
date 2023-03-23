@@ -27,17 +27,5 @@ public class Main {
             System.out.println(entry.getKey() + ": " + entry.getValue());
         }
 
-
-
-
-
-//        String[] words = str.split(" ");
-//        Map<String, Integer> wordCountMap = Arrays.stream(words)
-//                .collect(Collectors.groupingBy(word -> word,Collectors.summingInt(word ->1)));
-//        Map<String, Integer> sortedWordCountMap;
-//        sortedWordCountMap = wordCountMap.entrySet().stream()
-//                .sorted(Map.Entry.comparingByValue(Comparator.reverseOrder())).(Map.Entry.comparingByKey())
-//                .collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue, (oldValue, newValue)->oldValue, LinkedHashMap::new));
-//        sortedWordCountMap.forEach((word,count) -> System.out.println(word + " - " + count));
     }
 }
